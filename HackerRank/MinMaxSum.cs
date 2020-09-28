@@ -25,6 +25,7 @@ namespace HackerRank
                     maxValSum = maxValSum + elem;
                 }
             }
+
             Console.WriteLine(minValSum + " " + maxValSum);
         }
     }
