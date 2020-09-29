@@ -7,26 +7,13 @@ namespace HackerRank
     {
         void solution(int[] arr)
         {
-            long maxValSum = 0;
-            long minValSum = 0;
-            foreach (var elem in arr)
-            {
-                if (elem == arr.Min())
-                {
-                    minValSum = minValSum + elem;
-                }
-                else if (elem == arr.Max())
-                {
-                    maxValSum = maxValSum + elem;
-                }
-                else
-                {
-                    minValSum = minValSum + elem;
-                    maxValSum = maxValSum + elem;
-                }
+            long total = 0;
+            foreach(var elem in arr){
+                total = total + elem;
             }
-
-            Console.WriteLine(minValSum + " " + maxValSum);
+            long maxTotal = total - arr.Min();
+            long minTotal = total - arr.Max();
+            Console.WriteLine(minTotal+" "+maxTotal);
         }
     }
 }
