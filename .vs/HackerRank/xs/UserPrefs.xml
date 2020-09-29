@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{0EFF3E45-A66F-4236-B141-6C908EEED0D1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HackerRank/MinMaxSum.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HackerRank/ExtraLongFactorials.cs">
     <Files>
       <File FileName="HackerRank/JumpingOnTheClouds.cs" Line="1" Column="1" />
-      <File FileName="HackerRank/Program.cs" Line="1" Column="1" />
-      <File FileName="HackerRank/RepeatedString.cs" Line="1" Column="1" />
-      <File FileName="HackerRank/SockMerchant.cs" Line="1" Column="1" />
-      <File FileName="HackerRank/CountingValleys.cs" Line="1" Column="1" />
-      <File FileName="HackerRank/MinMaxSum.cs" Line="6" Column="9" />
+      <File FileName="HackerRank/Program.cs" />
+      <File FileName="HackerRank/RepeatedString.cs" />
+      <File FileName="HackerRank/SockMerchant.cs" />
+      <File FileName="HackerRank/CountingValleys.cs" />
+      <File FileName="HackerRank/MinMaxSum.cs" Line="1" Column="1" />
+      <File FileName="HackerRank/ExtraLongFactorials.cs" Line="6" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HackerRank" expanded="True">
             <Node name="HackerRank" expanded="True">
-              <Node name="MinMaxSum.cs" selected="True" />
+              <Node name="ExtraLongFactorials.cs" selected="True" />
             </Node>
           </Node>
         </State>
