@@ -1,8 +1,8 @@
 ﻿namespace HackerRank
 {
-    class CountingValleys
+    public static class CountingValleys
     {
-        int solution(int n, string s)
+        public static int solution(int n, string s)
         {
             int level = 0;
             int valley = 0;

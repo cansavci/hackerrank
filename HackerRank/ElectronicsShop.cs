@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-class Solution {
+public static class ElectronicShop {
 
     /*
      * Complete the getMoneySpent function below.
@@ -28,7 +28,7 @@ class Solution {
          return result;
     }
 
-    static void Main(string[] args) {
+    public static void Main(string[] args) {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
         string[] bnm = Console.ReadLine().Split(' ');

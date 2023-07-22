@@ -2,9 +2,9 @@
 
 namespace HackerRank
 {
-    class SockMerchant
+    public static class SockMerchant
     {
-        int solution(int n, int[] ar)
+        public static int solution(int n, int[] ar)
         {
             var pairsFound = 0;
             var sockColorHash = new Dictionary<int, int>();

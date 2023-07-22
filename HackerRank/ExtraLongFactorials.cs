@@ -3,9 +3,9 @@ using System.Numerics;
 
 namespace HackerRank
 {
-    public class ExtraLongFactorials
+    public static class ExtraLongFactorials
     {
-        void solution(int n)
+        public static void solution(int n)
         {
             var bi = new BigInteger(1);
             for (var i = 1; i <= n; i++)

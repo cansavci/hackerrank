@@ -1,8 +1,8 @@
 ﻿namespace HackerRank
 {
-    class JumpingOnTheClouds
+    public static class JumpingOnTheClouds
     {
-        int solution(int[] c)
+        public static int solution(int[] c)
         {
             int jumpsCount = 0;
             int sizeOfC = c.Length;
