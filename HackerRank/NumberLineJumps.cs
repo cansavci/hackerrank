@@ -1,21 +1,9 @@
-using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
 using System;
 
-class Solution {
-
-    // Complete the kangaroo function below.
-    static string kangaroo(int x1, int v1, int x2, int v2) {
+public static class NumberLineJump
+{
+        public static string solution(int x1, int v1, int x2, int v2) {
         var startDiff = Math.Abs(x1-x2);
         var jumpDiff = Math.Abs(v1-v2);
         if(startDiff != 0 && jumpDiff != 0){

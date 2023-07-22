@@ -1,17 +1,6 @@
-using System.CodeDom.Compiler;
 using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
 using System;
-
 class Result
 {
 
@@ -25,27 +14,32 @@ class Result
     public static List<int> gradingStudents(List<int> grades)
     {
         var returnList = new List<int>();
-        foreach(int grade in grades){
+        foreach (int grade in grades)
+        {
             int nextGrade = returnNextNumOfMultipleOfFive(grade);
-            if(grade < 38){
+            if (grade < 38)
+            {
                 returnList.Add(grade);
             }
-            else if(nextGrade - grade >= 3){
+            else if (nextGrade - grade >= 3)
+            {
                 returnList.Add(grade);
             }
-            else {
+            else
+            {
                 returnList.Add(nextGrade);
             }
         }
         return returnList;
     }
 
-    static int returnNextNumOfMultipleOfFive(int n) {
+    static int returnNextNumOfMultipleOfFive(int n)
+    {
         return ((n + 4) / 5) * 5;
     }
 }
 
-class Solution
+public static class GradingStudents
 {
     public static void Main(string[] args)
     {

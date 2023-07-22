@@ -2,9 +2,9 @@
 
 namespace HackerRank
 {
-    class RepeatedString
+    public static class RepeatedString
     {
-        long solution(string s, long n)
+        public static long solution(string s, long n)
         {
             int lengthOfS = s.Length;
 
